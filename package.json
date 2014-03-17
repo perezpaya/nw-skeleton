@@ -1,0 +1,15 @@
+{
+  "name": "nw-skeleton",
+  "main": "main.html",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-node-webkit-builder": "~0.1.17",
+    "grunt-contrib-less": "~0.10.0",
+  },
+  "window": {
+    "frame": true
+  }
+}

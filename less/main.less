@@ -1,0 +1,51 @@
+
+@main-font: 'Helvetica';
+
+
+// Sizes
+
+@title-button-size: 20px;
+@title-fullscreen-icon-size: 20px;
+
+// Color list
+
+@medium-red: #FA5858;
+@medium-orange: #F7D358;
+@medium-green: #2abe7c;
+
+@mega-color: #D12B00;
+
+
+// Button colors
+
+@close-button-color: @medium-red;
+@minimize-button-color: @medium-orange;
+@maximize-button-color: @medium-green;
+
+
+body {
+	background-color: white;
+	font-family: @main-font;
+}
+
+// Webkit hacks :)
+
+.no_drag {
+	-webkit-app-region: no-drag;
+}
+
+.drag {
+	-webkit-app-region: drag;
+}
+
+.no_select {
+	-webkit-user-select: none;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+@import (less) "navbar.less";
